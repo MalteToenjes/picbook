@@ -1,13 +1,84 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
+
+body
+{
+    background:#e4ebf6;
+    color: gray;
+    font-family: Tahoma,Verdana,Arial;
+}
+
+
+
+p
+{
+    font-size: 15px;
+    text-align: left;
+    float: left;
+    margin-top: 6px;
+    margin-left: 9px;
+}
+
+
+#wrapper
+{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-left: -5px;
+}
+
+
+
+#header_right
+{
+    background-image: url("../images/header_right.png");
+    width: 100%;
+    height: 49px;
+    float: right;
+    margin-right: -13px;
+    margin-top: -8px;
+}
+
+#header_left
+{
+    background-image:url("../images/header_left.png");
+    position: absolute;
+    width: 203px;
+    height: 49px;
+    float: left;
+    margin-left: -3px;
+    margin-top: -8px;
+
+}
+
+#content
+{
+    background-color: #eef3f9;
+    width: max-content;
+    min-height: 200px;
+    height: auto;
+    border: 1px solid #a0a8b5;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+#login
+{
+    float: right;
+    margin-top: 13px;
+    margin-right: 78px;
+}
+
+.imgClass
+{
+    background-image: url("../images/login_button.png");
+    background-position:  0px 0px;
+    width: 62px;
+    height: 22px;
+    border: 0px;
+}
+
+
+
+
+
+

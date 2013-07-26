@@ -6,8 +6,28 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
+
 <body>
 
+<div id="wrapper">
+  <div id="header_left"></div>
+  <div id="header_right">
+    <div id="login">
+      <input type="text" value="login" name="login" size="13" />
+      <input type="password" value="password" name="password" size="13" />
+      <input type="submit" class="imgClass" value=" " name="submit_login" />
+    </div>
+
+  </div>
+  <div id="content">
+
+    <%= yield %>
+  </div>
+
+
+</div>
+</div>
 
 <div id="user_nav">
   <% if current_user %>
@@ -23,7 +43,6 @@
     <%= content_tag :div, msg, :id => "flash_#{name}" %>
 <% end %>
 
-<%= yield %>
 
 </body>
 </html>
