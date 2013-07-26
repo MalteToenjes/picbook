@@ -1,5 +1,6 @@
 Picbook::Application.routes.draw do
 
+
   resources :albums
 
 
@@ -12,6 +13,7 @@ Picbook::Application.routes.draw do
 
   resources :users
   resources :sessions
+  resources :password_resets
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
