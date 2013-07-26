@@ -1,0 +1,6 @@
+<p>Hallo <%= @user.email %>,</p>
+
+<p>Danke für die Registrierung!</p>
+<p>Dein Passwort ist <%= @user.password  %></p>
+
+<p><%=link_to "Login", new_session_url(@session, :host => "localhost:3000") %></p>
