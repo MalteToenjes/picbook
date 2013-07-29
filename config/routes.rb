@@ -1,12 +1,14 @@
 Picbook::Application.routes.draw do
 
 
+
+  resources :userpanels
+
+
   resources :users
-
-
+  resources :sessions
+  resources :password_resets
   resources :albums
-
-
   resources :images
 
 
@@ -16,9 +18,6 @@ Picbook::Application.routes.draw do
 
   get "usercp" => "users#usercp", :as => "usercp"
 
-  resources :users
-  resources :sessions
-  resources :password_resets
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
