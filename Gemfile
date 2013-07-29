@@ -36,6 +36,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use debugger
 # gem 'debugger'
-#gem 'rmagick'
+gem 'rmagick'
 
-#gem 'carrierwave'
+gem 'carrierwave'
