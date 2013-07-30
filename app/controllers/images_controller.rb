@@ -1,6 +1,7 @@
 class ImagesController < ApplicationController
 
-  before_filter :require_login
+  before_filter :require_login, :only => [:index, :new, :edit]
+
 
   # GET /images
   # GET /images.json

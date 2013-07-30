@@ -6,5 +6,6 @@ class CreateAlbums < ActiveRecord::Migration
 
       t.timestamps
     end
+
   end
 end

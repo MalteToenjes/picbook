@@ -16,6 +16,7 @@
       <column name="description" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
       <column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="users_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
       <primary-key columns="id"/>
     </table>
     <table name="images" schema="" catalog="" type="TABLE">
@@ -26,6 +27,8 @@
       <column name="created_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="updated_at" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="image" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="users_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+      <column name="albums_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
       <primary-key columns="id"/>
     </table>
     <table name="schema_migrations" schema="" catalog="" type="TABLE">
@@ -52,7 +55,7 @@
   </data-source>
   <data-source source="LOCAL" name="Rails picbook: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="11dd79ce-6020-47a0-be07-79850900b559">
     <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-    <jdbc-url>jdbc:sqlite:C:\Users\KingDCB\Documents\GitHub\picbook\db\development.sqlite3</jdbc-url>
+    <jdbc-url>jdbc:sqlite:C:\Users\Malte\Documents\GitHub\picbook\db\development.sqlite3</jdbc-url>
     <libraries>
       <library>
         <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>

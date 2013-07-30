@@ -1,4 +1,7 @@
 class AlbumsController < ApplicationController
+
+  before_filter :require_login, :only => [:new, :edit, :index]
+
   # GET /albums
   # GET /albums.json
   def index

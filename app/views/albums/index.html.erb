@@ -9,10 +9,14 @@
     <th></th>
   </tr>
 
-<% @albums.each do |album| %>
+
+  <% available_albums = Album.find_all_by_users_id(self.current_user.id) %>
+
+<% available_albums.each do |album| %>
 <tr>
   <td><%= album.name %></td>
   <td><%= album.description %></td>
+
   <td><%= link_to 'Show', album %></td>
   <td><%= link_to 'Edit', edit_album_path(album) %></td>
   <td><%= link_to 'Destroy', album, method: :delete, data: { confirm: 'Are you sure?' } %></td>

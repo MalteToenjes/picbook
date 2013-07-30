@@ -1,0 +1,15 @@
+<%= stylesheet_link_tag    "users", :media => "all" %>
+
+<div id="content2">
+  <%= yield %>
+</div>
+
+<ul id="menu">
+  <li><h4>Menu</h4></li>
+  <li><%= link_to 'Edit Profil'%></li>
+  <li><%= link_to 'Upload Picture', new_image_path %></li>
+  <li><%= link_to 'Edit Picture', :images %></li>
+  <li><%= link_to 'Add Album'%></li>
+  <li><%= link_to 'Edit Album'%></li>
+</ul>
+

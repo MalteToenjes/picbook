@@ -23,6 +23,15 @@
     <%= f.label :path %><br />
     <%= f.text_field :path %>
   </div>
+
+        <%= label_tag(:image, 'Add Image to:') %>
+        <% available_albums = Album.find_all_by_users_id(self.current_user.id) %>
+        <%= select_tag(:album, options_for_select(available_albums.collect{|l| [l.name, l.id]})) %>
+        <%= f.hidden_field :users_id, :value => self.current_user.id %>
+
+    <div class="field">
+      <%= f.hidden_field :users_id, :value => self.current_user.id %>
+    </div>
   <div class="actions">
     <p><%= f.file_field :image %>
       <%= f.label :remote_image_url, 'oder eine URL' %><br>
