@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130730123218) do
+ActiveRecord::Schema.define(:version => 20130806084853) do
 
   create_table "albums", :force => true do |t|
     t.string   "name"
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(:version => 20130730123218) do
     t.string   "image"
     t.integer  "users_id"
     t.integer  "albums_id"
+    t.string   "permalink"
   end
 
   create_table "users", :force => true do |t|
