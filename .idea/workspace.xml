@@ -3,25 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="0625436d-8142-45a7-b594-0e3e8218a461" name="Default" comment="usercp">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/images/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/images/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/image.rb" afterPath="$PROJECT_DIR$/app/models/image.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/images_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/images_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/images/index.html.erb" afterPath="$PROJECT_DIR$/app/views/images/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/albums/show.html.erb" afterPath="$PROJECT_DIR$/app/views/albums/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/images/show.html.erb" afterPath="$PROJECT_DIR$/app/views/images/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="ff66df1c-1c7c-482e-87d2-8f78c069c1dc" name="New changelist" comment="New changelist" />
     <ignored path="picbook.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375778926389" ignored="false" />
+    <file path="/Dummy.txt" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375865854981" ignored="false" />
     <file path="/users_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374751271225" ignored="false" />
     <file path="/sessions_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374840209593" ignored="false" />
     <file path="/index.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374826914802" ignored="false" />
     <file path="/users" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374749177807" ignored="false" />
     <file path="/new.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375179076118" ignored="false" />
     <file path="/user.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374841498585" ignored="false" />
-    <file path="/application.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374828176183" ignored="false" />
+    <file path="/application.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375789705911" ignored="false" />
     <file path="/application.css" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374828611075" ignored="false" />
     <file path="/setup_mail.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374831871118" ignored="false" />
     <file path="/user_mailer.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374841574444" ignored="false" />
@@ -32,17 +36,18 @@
     <file path="/development.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1374841752464" ignored="false" />
     <file path="/Gemfile" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375100824126" ignored="false" />
     <file path="/userpanels_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375118103519" ignored="false" />
-    <file path="/index.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375777940344" ignored="false" />
-    <file path="/images_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375185880969" ignored="false" />
+    <file path="/index.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375788540047" ignored="false" />
+    <file path="/images_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375782860448" ignored="false" />
     <file path="/20130726083249_create_albums.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375177269314" ignored="false" />
     <file path="/albums_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375185763566" ignored="false" />
     <file path="/album.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375179718675" ignored="false" />
-    <file path="/_form.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375189064191" ignored="false" />
+    <file path="/_form.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375787697253" ignored="false" />
     <file path="/20130730123218_add_foreign_key_to_images.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375187750933" ignored="false" />
-    <file path="/image.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375779301790" ignored="false" />
+    <file path="/image.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375188214113" ignored="false" />
     <file path="$USER_HOME$/RubymineProjects/Lesson_final/app/views/students/show.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375188383279" ignored="false" />
     <file path="$USER_HOME$/RubymineProjects/Lesson_final/app/controllers/students_controller.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375190795549" ignored="false" />
-    <file path="/schema.rb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375778748812" ignored="false" />
+    <file path="/show.html.erb" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375795342684" ignored="false" />
+    <file path="/index.html" changelist="0625436d-8142-45a7-b594-0e3e8218a461" time="1375811325742" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,62 +71,7 @@
     <favorites_list name="picbook" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="images_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/images_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="37" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/images/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="68" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.1538461">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="214" selection-end="214" vertical-scroll-proportion="0.27687296">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130806084853_add_permalink_to_images.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130806084853_add_permalink_to_images.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/images/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -143,22 +93,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130726083249_create_albums.rb" />
-        <option value="dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..albums" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/albums/new.html.erb" />
-        <option value="dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..users" />
-        <option value="$PROJECT_DIR$/app/models/album.rb" />
         <option value="$PROJECT_DIR$/app/views/albums/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/albums/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/albums_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/images_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130730123218_add_foreign_key_to_images.rb" />
-        <option value="$PROJECT_DIR$/app/views/images/_form.html.erb" />
-        <option value="dbtable:/a98cd39f/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..users" />
+        <option value="dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..images" />
+        <option value="$PROJECT_DIR$/app/controllers/images_controller.rb" />
+        <option value="dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..albums" />
+        <option value="dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..users" />
         <option value="$PROJECT_DIR$/app/views/images/index.html.erb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/models/image.rb" />
+        <option value="$PROJECT_DIR$/app/views/images/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/images/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/albums/show.html.erb" />
+        <option value="C:/xampp/htdocs/UserCP/index.php" />
+        <option value="$USER_HOME$/RubymineProjects/UserCP/index.html" />
       </list>
     </option>
   </component>
@@ -172,8 +122,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -229,223 +179,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="userpanels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user_mailer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="password_resets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,28 +227,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="albums" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -528,8 +244,26 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploaders" />
+              <option name="myItemId" value="picbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="picbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,39 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="picbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,13 +298,13 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="Database.TableEditor.Splitter" value="0.7692308" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -612,7 +314,7 @@
       <recent name="C:\Users\Malte\Documents\GitHub\picbook\app\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate">
+  <component name="RunManager" selected="Rails.Development: picbook">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="picbook" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -897,24 +599,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5942029" sideWeight="0.61421317" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.071603425" sideWeight="0.80333334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29469696" sideWeight="0.6082474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1878825" sideWeight="0.80333334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39175257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -980,18 +682,45 @@
     <MESSAGE value="usercp" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/images_controller.rb</url>
+          <line>50</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/albums/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="49" selection-end="95" vertical-scroll-proportion="0.048710603">
-          <folding />
-        </state>
+        <state line="23" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.46" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/images_helper.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130806112400_remove_path_from_images.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130806112554_remove_permalink_from_images.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="55" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/bfc99dea/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..images">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
@@ -1000,86 +729,54 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/images/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/images/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.2692308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/albums/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.9615384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/albums_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/albums/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="72" selection-start="140" selection-end="207" vertical-scroll-proportion="-7.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/albums/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="54" selection-start="363" selection-end="363" vertical-scroll-proportion="-8.5" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a98cd39f/93b0f1c0-fcab-4a31-84a3-bca86f812d0e/..users">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="37" selection-start="139" selection-end="139" vertical-scroll-proportion="-7.1923075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/images/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="92" selection-start="888" selection-end="888" vertical-scroll-proportion="-9.230769">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.34815952" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/images_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/images/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="37" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/images/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.576923">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/images/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="68" selection-start="355" selection-end="355" vertical-scroll-proportion="-1.1538461">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130806084853_add_permalink_to_images.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.3536404" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/image.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="214" selection-end="214" vertical-scroll-proportion="0.27687296">
+        <state line="1" column="87" selection-start="120" selection-end="120" vertical-scroll-proportion="0.024320457" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/albums/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="221" selection-end="221" vertical-scroll-proportion="0.2806604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/albums/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="148" selection-start="318" selection-end="318" vertical-scroll-proportion="0.38089624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="106" selection-start="346" selection-end="346" vertical-scroll-proportion="0.02004717" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/RubymineProjects/UserCP/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="872" selection-end="872" vertical-scroll-proportion="0.23058543">
           <folding />
         </state>
       </provider>

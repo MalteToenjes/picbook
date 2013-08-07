@@ -4,17 +4,24 @@
   <tr>
     <th>Name</th>
     <th>Description</th>
-    <th>Path</th>
+    <th>Album</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
 
-<% @images.each do |image| %>
+  <% available_images = Image.find_all_by_users_id(self.current_user.id) %>
+
+<% available_images.each do |image| %>
+
+      <% all_albums = Album.where(id:image.albums_id)%>
+
   <tr>
     <td><%= image.name %></td>
     <td><%= image.description %></td>
-    <td><%= image.path %></td>
+    <td><%= all_albums.collect{|l| l.name} %></td>
+
+
     <td><%= link_to 'Show',:action => 'show',:id => image  %></td>
     <td><%= link_to 'Edit', edit_image_path(image) %></td>
     <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %></td>

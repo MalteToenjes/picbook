@@ -1,3 +1,11 @@
+<head>
+  <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+          $("area[rel^='prettyPhoto']").prettyPhoto();
+      });
+  </script>
+</head>
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -9,6 +17,16 @@
   <b>Description:</b>
   <%= @album.description %>
 </p>
+
+
+<img src="images/thumbnails/image_mapd.jpg" width="387" height="85" usemap="#image_map" border="0">
+<map name="image_map">
+  <area rel="prettyPhoto[image_map]" shape="rect" coords="6,11,72,73" href="./fullscreen/1.jpg">
+  <area rel="prettyPhoto[image_map]" shape="rect" coords="84,7,148,73" href="./fullscreen/2.jpg">
+  <area rel="prettyPhoto[image_map]" shape="rect" coords="161,8,226,73" href="./fullscreen/3.jpg">
+</map>
+
+
 
 
 <%= link_to 'Edit', edit_album_path(@album) %> |
