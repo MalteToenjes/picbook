@@ -1,7 +1,9 @@
 class User < ActiveRecord::Base
-  attr_accessible :email, :name, :password, :password_confirmation
+  attr_accessible :email, :name, :password, :password_confirmation, :avatar
+  attr_accessor :password_confirmation
   has_secure_password
-  validates_presence_of :password,:email, :name, :on => :create
+
+  validates_presence_of :password_digest,:email, :name, :on => :create
   before_create {generate_token(:auth_token)}
 
   def send_password_reset

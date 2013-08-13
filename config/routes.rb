@@ -2,10 +2,12 @@ Picbook::Application.routes.draw do
 
 
 
+  resources :users
+
+
   resources :userpanels
 
 
-  resources :users
   resources :sessions
   resources :password_resets
   resources :albums
