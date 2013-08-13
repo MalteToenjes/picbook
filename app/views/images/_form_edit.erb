@@ -1,0 +1,37 @@
+
+<%= form_for(@image, :html => {:multipart => true}) do |f| %>
+    <% if @image.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@image.errors.count, "error") %> prohibited this image from being saved:</h2>
+
+          <ul>
+            <% @image.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </div>
+    <div class="field">
+      <%= f.label :description %><br />
+      <%= f.text_field :description %>
+    </div>
+
+    <div class="field">
+      <%= f.label(:image, 'Add Image to:') %>
+      <% available_albums = Album.find_all_by_users_id(self.current_user.id) %>
+
+      <%= f.select(:albums_id, options_for_select(available_albums.collect{|l| [l.name, l.id]})) %>
+    </div>
+
+    <div class="field">
+      <%= f.hidden_field :users_id, :value => self.current_user.id %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>
