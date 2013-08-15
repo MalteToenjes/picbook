@@ -25,7 +25,7 @@
         <%= f.label(:image, 'Add Image to:') %>
         <% available_albums = Album.find_all_by_users_id(self.current_user.id) %>
 
-        <%= f.select(:albums_id, options_for_select(available_albums.collect{|l| [l.name, l.id]})) %>
+        <%= f.select(:albums_id, options_for_select([[" ", 0]]+available_albums.collect{|l| [l.name, l.id]})) %>
    </div>
 
     <div class="field">
