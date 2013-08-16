@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+$('.menu_cluster a').click(function () {
+    alert("hoho")
+    $.get(this.href, null, null, 'script');
+
+    return false;
+});
