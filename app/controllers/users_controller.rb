@@ -57,7 +57,11 @@ class UsersController < ApplicationController
 
            end
         end
+      else
+        redirect_to edit_user_path(@user), notice: "Current password is incorrect."
       end
+
+
   end
   end
 
