@@ -1,3 +1,58 @@
 // Place all the styles related to the userpanels controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#content2
+{
+  background-color: #eef3f9;
+  width: 62%;
+  min-height: 200px;
+  height: auto;
+  border: 1px solid #a0a8b5;
+  margin-top: 50px;
+  margin-left: 205px;
+  float: right;
+  position: absolute;
+
+}
+
+
+#menu
+{
+  margin-top: 30px;
+  position: absolute;
+}
+
+#menu h4
+{
+  background-image:url("../images/menu_head.png");
+  color: #094b4d;
+  width: 158px;
+  height: 33px;
+}
+
+#menu li
+{
+  background-image:url("../images/menu_item.png");
+  width: 158px;
+  height: 29px;
+  list-style: none;
+
+
+}
+
+#menu li a
+{
+  color: #094b4d;
+  text-align: center;
+  font: bold 13px tahoma;
+  text-decoration: none;
+}
+
+#menu li:hover
+{
+  background-image:url("../images/menu_item_hover.png");
+  width: 158px;
+  height: 29px;
+}

@@ -6,18 +6,16 @@ Picbook::Application.routes.draw do
 
 
   resources :userpanels
-
-
   resources :sessions
   resources :password_resets
   resources :albums
   resources :images
+  resources :userprofiles
 
 
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "log_in" => "sessions#new", :as => "log_in"
   get "sign_up" => "users#new", :as => "sign_up"
-
   get "usercp" => "users#usercp", :as => "usercp"
 
 
